@@ -1,16 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
-  labels:
-    system: public-websites
-  annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
+  name: artist-lookup
+  description: Artist Lookup
   tags:
     - java
+    - data
 spec:
-  type: website
-  lifecycle: production
-  owner: artist-relations@example.com
+  type: service
+  lifecycle: experimental
+  owner: artists@example.com
