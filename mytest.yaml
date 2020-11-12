@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: docs-template
   title: Documentation Template
-  description: Create a new standalone documentation project
+  description: Hello Vincent !
   tags:
     - recommended
     - techdocs
