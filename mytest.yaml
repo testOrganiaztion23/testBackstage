@@ -1,20 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: docs-template
-  title: Documentation Template
-  description: Hello Vincent !
+  name: react-ssr-template
+  title: React SSR Template
+  description: Create a website powered with Next.js
   tags:
     - recommended
-    - techdocs
-    - mkdocs
-    - myTag
+    - react
 spec:
-  owner: backstage/techdocs-core
+  owner: web@example.com
   templater: cookiecutter
-  type: documentation
+  type: website
   path: "."
-
   schema:
     required:
       - component_id
@@ -27,4 +24,4 @@ spec:
       description:
         title: Description
         type: string
-        description: Help others understand what these docs are about.
+        description: Help others understand what this website is for.
