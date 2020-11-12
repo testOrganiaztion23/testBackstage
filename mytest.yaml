@@ -8,6 +8,7 @@ metadata:
     - recommended
     - techdocs
     - mkdocs
+    - myTag
 spec:
   owner: backstage/techdocs-core
   templater: cookiecutter
