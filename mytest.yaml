@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
+  name: my-test
+  description: my test
+  tags:
+    - java
+    - data
 spec:
-  type: website
-  lifecycle: production
-  owner: artist-relations@example.com
-  implementsApis:
-    - artist-api
+  type: service
+  lifecycle: experimental
+  owner: artists@example.com
