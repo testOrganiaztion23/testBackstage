@@ -5,8 +5,6 @@ metadata:
   description: my test
   tags:
     - java
-    - data
-    - go
 spec:
   type: service
   lifecycle: experimental
